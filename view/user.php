@@ -13,7 +13,6 @@
 
 <?php
 require 'include/menu.php';
-
 ?>
 
         <div class="container">

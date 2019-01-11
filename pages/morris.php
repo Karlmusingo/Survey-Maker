@@ -1,9 +1,6 @@
 <?php 
 
-require 'database.php';
-
-        global $bdd;
-
+        require 'database.php';
         $sql = "SELECT Nomenclature, Prix, Quantite FROM articles";
         $prepare = $bdd->prepare($sql);
         $prepare->execute();
@@ -15,6 +12,7 @@ require 'database.php';
         // echo "</pre>";
   
  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +27,7 @@ require 'database.php';
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
@@ -56,7 +54,6 @@ require 'database.php';
 
     <div id="wrapper">
 
-        <?php include 'navig.php'; ?>
 
         <div id="page-wrapper">
             <div class="row">
@@ -148,10 +145,10 @@ require 'database.php';
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/js/jquery-1.11.3.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
@@ -159,13 +156,15 @@ require 'database.php';
     <!-- Morris Charts JavaScript -->
     <script src="../bower_components/raphael/raphael-min.js"></script>
     <script src="../bower_components/morrisjs/morris.min.js"></script>
-    <script src="../js/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
 
-<?php require '../js/morris-data.php'; ?>
+ <?php 
 
+ require 'morris-data.php';
+ print_r($data);
+  ?>
 
 </body>
 
