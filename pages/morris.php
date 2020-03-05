@@ -1,16 +1,12 @@
 <?php 
 
-        require 'database.php';
-        $sql = "SELECT Nomenclature, Prix, Quantite FROM articles";
-        $prepare = $bdd->prepare($sql);
-        $prepare->execute();
+    require 'database.php';
+    $sql = "SELECT Nomenclature, Prix, Quantite FROM articles";
+    $prepare = $bdd->prepare($sql);
+    $prepare->execute();
 
-        $data = $prepare->fetchAll();
-        
-        // echo "<pre>";
-        // print_r($data);
-        // echo "</pre>";
-  
+    $data = $prepare->fetchAll();
+
  ?>
 
 <!DOCTYPE html>

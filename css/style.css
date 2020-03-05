@@ -1,115 +1,113 @@
-body{
-    font-family: tahoma;
+body {
+  font-family: tahoma;
 }
 
 h1 {
-    color: white;
-    width: 100%;
+  color: white;
+  width: 100%;
 }
 
 .banner {
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    position: relative;
-    color: #fff;
-    margin-top: -20px;
-    border-top: black;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  color: #fff;
+  margin-top: -20px;
+  border-top: black;
 }
 
 .img {
-    vertical-align: middle;
-    min-height: 100%;
-    height: auto;
-    width: 100%;
-
+  vertical-align: middle;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
 }
 .banner:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.55);
-    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  content: "";
 }
 .banner-caption {
-    position: absolute;
-    top: 20%;
-    vertical-align: middle;
-    width: 100%;
-    z-index: 1;
+  position: absolute;
+  top: 20%;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 1;
 }
 .banner-caption-menu {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    z-index: 2;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 2;
 }
 
 .container {
-    z-index: 3;
-    position: relative;
+  z-index: 3;
+  position: relative;
 }
 /* Buttons
 ---------------------------------- */
 
 button {
-	padding: 8px 15px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	min-width: 50px;
-        border:6px solid #000;
-	text-align: center;
-	border-radius: 0;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+  padding: 8px 15px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  min-width: 50px;
+  border: 6px solid #000;
+  text-align: center;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 button .receiver {
-	color: #55acee;
-	border: 5px solid #cccccc;
+  color: #55acee;
+  border: 5px solid #cccccc;
 }
 button :hover {
-	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+  color: #ffffff;
+  background-color: #339beb;
+  border-color: #339beb;
 }
 
 /* Modals
 ---------------------------------- */
 .modal-content {
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 .modal-header {
-	background-color: #55acee;
-	color: #ffffff;
+  background-color: #55acee;
+  color: #ffffff;
 }
 .modal-footer {
-	background-color: #55acee;
-	color: #ffffff;
+  background-color: #55acee;
+  color: #ffffff;
 }
 .modal-header h4 {
-	color: #ffffff;
+  color: #ffffff;
 }
 .modal-header .close {
-	font-weight: 300;
-	color: #FFFFFF;
-	text-shadow: none;
-	filter: alpha(opacity=100);
-	opacity: 1;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: none;
+  filter: alpha(opacity=100);
+  opacity: 1;
 }
 
 .question {
-    //font-size: 20px;
-    margin-bottom: 8px;
-    margin-left: 40px;
+  margin-bottom: 8px;
+  margin-left: 40px;
 }
 
 .reponse {
-    margin-left: 70px;
+  margin-left: 70px;
 }

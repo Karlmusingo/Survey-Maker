@@ -6,7 +6,7 @@ require 'include/bdd.php';
 include 'models/Sondage.php';
 
 $sondages = Sondage::selectForMe($_SESSION['id_user']);
-//print_r($_SESSION);
+
 if (isset($_GET['id_sondage'])) {
     $_SESSION['id_sondage'] = $_GET['id_sondage'];
 }elseif (isset($_POST['next'])) {

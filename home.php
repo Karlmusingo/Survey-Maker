@@ -19,16 +19,6 @@ require 'include/functions.php';
             break;
         }
         $nombre = Reponse::get_number_reponse($_SESSION['id_sondage']);
-        
-//        $sql = "SELECT Nomenclature, Prix, Quantite FROM articles";
-//        $prepare = $bdd->prepare($sql);
-//        $prepare->execute();
-//
-//        $data = $prepare->fetchAll();
-        
-        // echo "<pre>";
-        // print_r($data);
-        // echo "</pre>";
        
         $sections = section_question_reponse_nombre($_SESSION['id_sondage']);
      
