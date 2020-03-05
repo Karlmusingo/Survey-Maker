@@ -2,6 +2,7 @@
 session_start();
 require 'include/bdd.php';
 require 'models/User.php';
+
 if (isset($_SESSION['nom'])) {
     header("location:sondage?message=1");
 }

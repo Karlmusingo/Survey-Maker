@@ -24,10 +24,6 @@
     </div>
   </div>
 
-
-
-
-  <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../../excanvas.min.js"></script><![endif]-->
   <script src="bootstrap/js/jquery-1.11.3.min.js" type="text/javascript"></script>
   <script language="javascript" type="text/javascript" src="flot/jquery.flot.js"></script>
   <script language="javascript" type="text/javascript" src="flot/jquery.flot.pie.js"></script>

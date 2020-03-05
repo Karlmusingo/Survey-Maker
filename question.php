@@ -9,7 +9,7 @@ require 'models/ReponseProposee.php';
 if (isset($_GET['id_sondage'])) {
     $_SESSION['id_sondage'] = $_GET['id_sondage'];
 }
-//print_r($_SESSION);
+
 $allQuestions = Question::selectForSondage($_SESSION['id_sondage']);
 
 $sections = Section::select($_SESSION['id_sondage']);
@@ -51,13 +51,12 @@ if (!empty($_POST)) {
                     $add = ReponseProposee::add($type_answer, $str_random, $answer[$i], $questionId);
                 }
             } else {
-                die('Veillez remplir tous les champs de reponses à proposer'); // "Veillez remplir tous les champs de reponses à proposer";
+                die('Veillez remplir tous les champs de reponses à proposer'); 
             }
         }
     } else {
         $errors = "Veillez entrer la question";
     }
-    //echo json_encode($errors);
 }
 
 require 'view/question.php';

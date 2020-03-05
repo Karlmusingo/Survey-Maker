@@ -12,7 +12,5 @@ $nombre = Reponse::get_number_reponse($_SESSION['id_sondage']);
 
 $sections = section_question_reponse_nombre($_SESSION['id_sondage']);
 
-
-
 require 'view/resultat.php';
 ?>

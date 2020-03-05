@@ -96,7 +96,5 @@ Morris.Bar({
         hideHover: 'auto',
         resize: true
     });
-    console.log("morris-data included");
-
 });
 </script>

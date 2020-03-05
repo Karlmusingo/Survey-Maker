@@ -45,12 +45,14 @@ if (isset($_POST['login'])) {
                         <div class="panel-body">
                             <div class="form-group">
                                 <label > Nom:</label>
-                                <input type="text" class="form-control" name='nom' placeholder="Enter the nom" /> <i class="fa fa-user"></i>
+                                <input type="text" class="form-control" name='nom' placeholder="Enter the nom" />
+                                <i class="fa fa-user"></i>
                             </div>
 
                             <div class="form-group">
                                 <label > Password:</label>
-                                <input type="password" class="form-control" name='password' placeholder="Enter the password" /> <i class="fa fa-user"></i>
+                                <input type="password" class="form-control" name='password' placeholder="Enter the password" />
+                                <i class="fa fa-user"></i>
                             </div>
 
                             <div class="text-right" >

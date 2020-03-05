@@ -43,14 +43,7 @@
 
                     </form>
 
-
                 </div>
-
-                <!--<div id="questions">
-                    <div class="jumbotron col-lg-10 col-lg-offset-1" style="margin-top: 35px">
-
-                    </div>
-                </div>-->
 
             </div>
         </div>

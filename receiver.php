@@ -8,7 +8,7 @@ if (isset($_GET['idSection'])) {
     $question_reponse = question_reponse($_GET['idSection']);
 //echo result as json
     echo json_encode($question_reponse);
-//print_r($rows);
+
 }
 if(isset($_GET['selected_id'])){
     $selectReponses = ReponseProposee::select($_GET['selected_id']);

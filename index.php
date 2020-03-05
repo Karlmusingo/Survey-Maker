@@ -44,10 +44,7 @@ if (isset($_POST['login'])) {
             <div class="banner-caption">
                 <div class="container" style="margin-top: -50px">
                     <div class="row">
-                        <!--                        <div class="col-md-8 col-md-offset-2 object-non-visible"  data-animation-effect="fadeIn">
-                                                    <h1 class="text-center" style=""> <span>Survey Maker</span><br>
-                                                        <a href="login"><small class="lead text-center" style="color: whitesmoke " >Conceive your questionnaire</small></a></h1>
-                                                </div>-->
+            
                         <div class="container">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-3">
 

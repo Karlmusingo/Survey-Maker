@@ -42,7 +42,6 @@
 	<h1 style="" class="text-uppercase text-center"><b>RESULTAT DE <?php echo $_SESSION['nom_sondage']; ?></b></h1>
 
 	<p class="huge">Nombre des reponses : <?php echo $nombre->nombre; ?> </p>
-	<!-- <hr style="border: 1px solid green; ">  -->
 
 	<div class="nav-tabs-custom">
 		<ul class="nav nav-tabs">

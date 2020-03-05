@@ -56,9 +56,25 @@
                                     <?php foreach ($question_reponse->reponses as $reponse) { ?>
                                         <div class="form-inline reponse">
                                             <?php if ($reponse->type === "radio"){ ?>
-                                                <input class="form-control" id="<?php echo $reponse->id_reponse_proposee; ?>" required placeholder="entrer votre reponse ici" type="<?php echo $reponse->type; ?>" name="<?php echo $reponse->cle; ?>" value="<?php echo $reponse->valeur; ?>"/>
+                                                <input 
+                                                    class="form-control"
+                                                    id="<?php echo $reponse->id_reponse_proposee; ?>" 
+                                                    required 
+                                                    placeholder="entrer votre reponse ici" 
+                                                    type="<?php echo $reponse->type; ?>" 
+                                                    name="<?php echo $reponse->cle; ?>" 
+                                                    value="<?php echo $reponse->valeur; ?>"
+                                                />
                                             <?php } else { ?>
-                                                <input class="form-control" id="<?php echo $reponse->id_reponse_proposee; ?>" required placeholder="entrer votre reponse ici" type="<?php echo $reponse->type; ?>" name="<?php echo $reponse->cle; ?>[]" value="<?php echo $reponse->valeur; ?>"/>
+                                                <input 
+                                                    class="form-control" 
+                                                    id="<?php echo $reponse->id_reponse_proposee; ?>" 
+                                                    required
+                                                    placeholder="entrer votre reponse ici" 
+                                                    type="<?php echo $reponse->type; ?>" 
+                                                    name="<?php echo $reponse->cle; ?>[]" 
+                                                    value="<?php echo $reponse->valeur; ?>"/
+                                                >
                                             <?php } ?>    
                                             <label><?php echo $reponse->valeur; ?></label>
                                         </div>

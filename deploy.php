@@ -7,8 +7,6 @@ require 'models/Section.php';
 require 'models/Sondage.php';
 require 'models/ReponseMultiple.php';
 require 'include/functions.php';
-//print_r($_SESSION);
-//print_r($_POST);
 
 $sondage = Sondage::selectToRespond($_SESSION['id_sondage']);
 $sections = section_question_reponse($_SESSION['id_sondage']);
